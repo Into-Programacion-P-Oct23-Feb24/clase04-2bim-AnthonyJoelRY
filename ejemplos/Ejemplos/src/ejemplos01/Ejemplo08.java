@@ -37,7 +37,7 @@ public class Ejemplo08 {
                 cadena = String.format("%s%d + %d = %d\n", cadena, x, e,
                         operacion);
             }
-            
+            cadena=String.format("%s\n", cadena);
         }
         return cadena;
     }
@@ -52,8 +52,9 @@ public class Ejemplo08 {
                 operacion = x*e;
                 cadena = String.format("%s%d * %d = %d\n", cadena, x, e,
                         operacion);
+               
             }
-            
+             cadena=String.format("%s\n", cadena);
         }
         return cadena;
 
