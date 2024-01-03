@@ -17,6 +17,12 @@ public class Ejemplo01 {
          */
         obtenerMultiplicacion(7, 50);
         String miMensaje = obtenerMultiplicacionDos(7, 50);
+        /*
+        La razon de llamar al metodo que envia valores de tipo de entero
+        y asignarlo a una variable tipo cadena es que necesitamos retornar de
+        esa funcion un valor de tipo cadena y para eso debemos almacenarla en
+        una variable del mismo tipo.
+        */
         System.out.printf("%s\n", miMensaje);
     }
 
@@ -34,11 +40,6 @@ public class Ejemplo01 {
     /*
     visibilidad /tipo de dato/ /nombre de la clase/  /conjunto de datos
     public           void     obtenerMultiplicacion  (int tabla,int limite)
-    
-    como llamo a un metodo:
-    obtenerMultiplicacion (10 , 2)
-    int b=0;
-    (double)b:Esto me permite cambiar el tipo de la variable.
     
     void :No tiene una valor de retorno osea no devuelve ningun dato osea
     hablamos de un procedimiento.
