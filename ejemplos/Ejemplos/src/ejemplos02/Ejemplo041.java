@@ -13,7 +13,6 @@ public class Ejemplo041 {
 
     public static void main(String[] args) {
         // 
-       String cadenaFinal="";
         int[][] arreglo1 = {{1, 2, 3}, {3, 2, 4}, {2, 6, 2}};
         int[][] arreglo2 = {{1, 2, 3}, {2, 2, 2}, {3, 1, 2}};
         int[][] arreglo3 = new int[3][3];
