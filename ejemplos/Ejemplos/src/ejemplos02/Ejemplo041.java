@@ -23,9 +23,10 @@ public class Ejemplo041 {
                 arreglo3[i][j] = obtenerMultiplicacion(arreglo1[i][j], arreglo2[i][j]);
             }
         }
+        
         for (int i = 0; i < arreglo1.length; i++) {
             for (int j = 0; j < arreglo1[i].length; j++) {
-              System.out.printf(" %s %d", cadenaFinal,arreglo1[i][j]);
+              System.out.printf(" %s ",arreglo1[i][j]);
               if(j==2){
               System.out.print("\n");
                 }
@@ -34,7 +35,7 @@ public class Ejemplo041 {
         System.out.print("\n");
          for (int i = 0; i < arreglo1.length; i++) {
             for (int j = 0; j < arreglo1[i].length; j++) {
-              System.out.printf(" %s %d", cadenaFinal,arreglo2[i][j]);
+              System.out.printf(" %s ",arreglo2[i][j]);
               if(j==2){
               System.out.print("\n");
                 }
@@ -43,7 +44,7 @@ public class Ejemplo041 {
          System.out.print("\n");
           for (int i = 0; i < arreglo1.length; i++) {
             for (int j = 0; j < arreglo1[i].length; j++) {
-              System.out.printf(" %s %d", cadenaFinal,arreglo3[i][j]);
+              System.out.printf(" %s ",arreglo3[i][j]);
               if(j==2){
               System.out.print("\n");
                 }
